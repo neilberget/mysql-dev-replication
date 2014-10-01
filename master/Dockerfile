@@ -8,7 +8,7 @@ RUN apt-get install wget libaio1
 
 RUN apt-get update
 #RUN DEBIAN_FRONTEND=noninteractive apt-get -q -y install mysql-client mysql-server
-RUN wget -O mysql-5.6.deb http://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.14-debian6.0-x86_64.deb
+RUN wget -O mysql-5.6.deb http://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.21-debian6.0-x86_64.deb
 # &> /dev/null
 RUN dpkg -i  mysql-5.6.deb
 
